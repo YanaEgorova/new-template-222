@@ -1,0 +1,267 @@
+.hero {
+    text-align: center;
+    padding: 20rem 0;
+    position: relative;
+}
+.hero .title {
+    line-height: 1;
+    margin-bottom: 2rem;
+    position: relative;
+}
+.hero .text {
+    margin: 0 auto 3rem;
+    max-width: 35rem;
+}
+
+
+
+
+
+.contacts {
+    padding: 15rem 0;
+    text-align: center;
+}
+.contacts .sub-title {
+    margin-bottom: 3rem;
+}
+.contacts__item:not(:last-child) {
+    margin-bottom: 2rem;
+}
+.contacts .text--mb  {
+    max-width: 40rem;
+    margin: 0 auto 2rem;
+}
+.contacts__item-link .text {
+    transition: .3s ease-in-out;
+}
+.contacts__box {
+    margin-bottom: 6rem;
+}
+.contacts .btn {
+    background-color: var(--main-text-color);
+    color: var(--sub-text-color);
+}
+
+
+
+
+.policy__wrapper {
+    background-color: var(--second-brand-color);
+    position: relative;
+}
+.policy__wrapper::before {
+    background-image: url('../img/bg2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    display: block;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: .05;
+}
+.policy {
+    padding: 15rem 0;
+    text-align: center;
+    position: relative;
+}
+.policy .sub-title {
+    margin-bottom: 8rem;
+}
+.policy__sub-title {
+    font-family: var(--title-font);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.policy__block {
+    max-width: 40rem;
+    margin: 0 auto;
+}
+.policy__block--top {
+    margin-bottom: 8rem;
+}
+.policy .text {
+    margin-bottom: 3rem;
+}
+.policy .btn {
+    background-color: var(--main-text-color);
+    color: var(--sub-text-color);
+}
+
+
+
+
+
+.question {
+    padding: 12rem 0;
+    text-align: center;
+}
+.question .sub-title {
+    margin-bottom: 6rem;
+}
+.question__sub-title {
+    font-family: var(--title-font);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+.question__item:not(:last-child) {
+    margin-bottom: 6rem;
+}
+.question__list {
+    max-width: 50rem;
+    margin: 0 auto;
+}
+.question__item {
+    position: relative;
+}
+
+
+
+@media screen and (min-width: 1440px)  {
+    .hero__wrapper-main {
+        background-image: url('../img/bg.jpeg');
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+        position: relative;
+    }
+    .hero__wrapper-main::before {
+        background-image: url('../img/bg2.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        display: block;
+        content: '';
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        opacity: .05;
+    }
+    .hero {
+        padding: 25rem 15rem;
+        text-align: left;
+    }
+    .hero .text,
+    .hero .btn {
+        margin-left: 0;
+    }
+
+
+
+    .contacts__item-link .text:hover {
+        letter-spacing: .2rem;
+    }
+    .contacts .btn:hover {
+        background-color: var(--sub-text-color);
+        color: var(--main-text-color);
+    }
+    .contacts {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15rem;
+        text-align: left;
+    }
+    .contacts .btn {
+        margin: -3rem 0 0 3rem;
+    }
+    .contacts__box {
+        margin-bottom: 0;
+    }
+    .contacts .sub-title {
+        margin-bottom: 5rem;
+    }
+    .contacts .text--mb  {
+        margin-bottom: 0;
+        padding: 8rem 3rem 6rem;
+        border: .5rem solid var(--second-brand-color);
+    }
+    .contacts__item {
+        position: relative;
+    }
+    .contacts__item::before {
+        display: block;
+        content: '';
+        position: absolute;
+        width: 3rem;
+        height: 3rem;
+        background-image: url("data:image/svg+xml,%0A%3Csvg xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23' xmlns='http://www.w3.org/2000/svg' xmlns:cc='http://creativecommons.org/ns%23' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:sodipodi='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd' xmlns:svg='http://www.w3.org/2000/svg' xmlns:ns1='http://sozi.baierouge.fr' xmlns:xlink='http://www.w3.org/1999/xlink' id='svg2' sodipodi:docname='svg-1.svg' version='1.1' inkscape:version='0.48.0 r9654' viewBox='-0.8 -0.8 31.906251 27.65625' %3E%3Csodipodi:namedview id='namedview22' fit-margin-left='0' inkscape:zoom='7.9570563' borderopacity='1' inkscape:current-layer='svg2' inkscape:cx='19.931406' inkscape:cy='16.416289' inkscape:window-maximized='0' showgrid='false' fit-margin-right='0' bordercolor='%23666666' inkscape:window-x='30' guidetolerance='10' objecttolerance='10' inkscape:window-y='226' fit-margin-bottom='0' inkscape:window-width='778' inkscape:pageopacity='0' inkscape:pageshadow='2' pagecolor='%23ffffff' gridtolerance='10' inkscape:window-height='611' fit-margin-top='0' /%3E%3Cg id='g4' transform='matrix(1 0 0 -1 .91875 25.856)' %3E%3Cg id='g6' %3E%3Cg id='g8' style='stroke:%2300facd' %3E%3Cg id='g10' style='fill:%2300facd' %3E%3Cg id='g12' style='stroke-width:.4pt' %3E%3Cg id='g14' %3E%3Cg id='g16' %3E%3Cg id='g18' style='stroke-width:1.6pt' %3E%3Cpath id='path20' style='fill:none' inkscape:connector-curvature='0' d='m0 0h28.453l-14.227 24.641z' /%3E%3C/g %3E%3C/g %3E%3C/g %3E%3C/g %3E%3C/g %3E%3C/g %3E%3C/g %3E%3C/g %3E%3Cmetadata %3E%3Crdf:RDF %3E%3Ccc:Work %3E%3Cdc:format %3Eimage/svg+xml%3C/dc:format %3E%3Cdc:type rdf:resource='http://purl.org/dc/dcmitype/StillImage' /%3E%3Ccc:license rdf:resource='http://creativecommons.org/licenses/publicdomain/' /%3E%3Cdc:publisher %3E%3Ccc:Agent rdf:about='http://openclipart.org/' %3E%3Cdc:title %3EOpenclipart%3C/dc:title %3E%3C/cc:Agent %3E%3C/dc:publisher %3E%3Cdc:title %3ETriangle équilatéral%3C/dc:title %3E%3Cdc:date %3E2011-03-14T17:25:32%3C/dc:date %3E%3Cdc:description %3EUn triangle équilatéral, cotés noirs.%5Cn%5CnA black equilateral triangle.%3C/dc:description %3E%3Cdc:source %3Ehttps://openclipart.org/detail/127483/triangle-équilatéral-by-la-raison%3C/dc:source %3E%3Cdc:creator %3E%3Ccc:Agent %3E%3Cdc:title %3ELa Raison%3C/dc:title %3E%3C/cc:Agent %3E%3C/dc:creator %3E%3Cdc:subject %3E%3Crdf:Bag %3E%3Crdf:li %3Eequilateral%3C/rdf:li %3E%3Crdf:li %3Egeometry%3C/rdf:li %3E%3Crdf:li %3Egéometrie%3C/rdf:li %3E%3Crdf:li %3Epolygone%3C/rdf:li %3E%3Crdf:li %3Etriangle%3C/rdf:li %3E%3Crdf:li %3Eéquilatéral%3C/rdf:li %3E%3C/rdf:Bag %3E%3C/dc:subject %3E%3C/cc:Work %3E%3Ccc:License rdf:about='http://creativecommons.org/licenses/publicdomain/' %3E%3Ccc:permits rdf:resource='http://creativecommons.org/ns%23Reproduction' /%3E%3Ccc:permits rdf:resource='http://creativecommons.org/ns%23Distribution' /%3E%3Ccc:permits rdf:resource='http://creativecommons.org/ns%23DerivativeWorks' /%3E%3C/cc:License %3E%3C/rdf:RDF %3E%3C/metadata %3E%3C/svg%0A%3E%0A");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        top: 50%;
+        left: -4rem;
+        transform: translate(0, -50%);
+    }
+    .contacts__item::after {
+        display: block;
+        content: '';
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        background-image: url("data:image/svg+xml,%0A%3Csvg xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23' xmlns='http://www.w3.org/2000/svg' xmlns:cc='http://creativecommons.org/ns%23' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:sodipodi='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd' xmlns:svg='http://www.w3.org/2000/svg' xmlns:ns1='http://sozi.baierouge.fr' xmlns:xlink='http://www.w3.org/1999/xlink' id='svg2' sodipodi:docname='svg-1.svg' version='1.1' inkscape:version='0.48.0 r9654' viewBox='-0.8 -0.8 31.906251 27.65625' %3E%3Csodipodi:namedview id='namedview22' fit-margin-left='0' inkscape:zoom='7.9570563' borderopacity='1' inkscape:current-layer='svg2' inkscape:cx='19.931406' inkscape:cy='16.416289' inkscape:window-maximized='0' showgrid='false' fit-margin-right='0' bordercolor='%23666666' inkscape:window-x='30' guidetolerance='10' objecttolerance='10' inkscape:window-y='226' fit-margin-bottom='0' inkscape:window-width='778' inkscape:pageopacity='0' inkscape:pageshadow='2' pagecolor='%23ffffff' gridtolerance='10' inkscape:window-height='611' fit-margin-top='0' /%3E%3Cg id='g4' transform='matrix(1 0 0 -1 .91875 25.856)' %3E%3Cg id='g6' %3E%3Cg id='g8' style='stroke:%23000000' %3E%3Cg id='g10' style='fill:%23000000' %3E%3Cg id='g12' style='stroke-width:.4pt' %3E%3Cg id='g14' %3E%3Cg id='g16' %3E%3Cg id='g18' style='stroke-width:1.6pt' %3E%3Cpath id='path20' style='fill:none' inkscape:connector-curvature='0' d='m0 0h28.453l-14.227 24.641z' /%3E%3C/g %3E%3C/g %3E%3C/g %3E%3C/g %3E%3C/g %3E%3C/g %3E%3C/g %3E%3C/g %3E%3Cmetadata %3E%3Crdf:RDF %3E%3Ccc:Work %3E%3Cdc:format %3Eimage/svg+xml%3C/dc:format %3E%3Cdc:type rdf:resource='http://purl.org/dc/dcmitype/StillImage' /%3E%3Ccc:license rdf:resource='http://creativecommons.org/licenses/publicdomain/' /%3E%3Cdc:publisher %3E%3Ccc:Agent rdf:about='http://openclipart.org/' %3E%3Cdc:title %3EOpenclipart%3C/dc:title %3E%3C/cc:Agent %3E%3C/dc:publisher %3E%3Cdc:title %3ETriangle équilatéral%3C/dc:title %3E%3Cdc:date %3E2011-03-14T17:25:32%3C/dc:date %3E%3Cdc:description %3EUn triangle équilatéral, cotés noirs.%5Cn%5CnA black equilateral triangle.%3C/dc:description %3E%3Cdc:source %3Ehttps://openclipart.org/detail/127483/triangle-équilatéral-by-la-raison%3C/dc:source %3E%3Cdc:creator %3E%3Ccc:Agent %3E%3Cdc:title %3ELa Raison%3C/dc:title %3E%3C/cc:Agent %3E%3C/dc:creator %3E%3Cdc:subject %3E%3Crdf:Bag %3E%3Crdf:li %3Eequilateral%3C/rdf:li %3E%3Crdf:li %3Egeometry%3C/rdf:li %3E%3Crdf:li %3Egéometrie%3C/rdf:li %3E%3Crdf:li %3Epolygone%3C/rdf:li %3E%3Crdf:li %3Etriangle%3C/rdf:li %3E%3Crdf:li %3Eéquilatéral%3C/rdf:li %3E%3C/rdf:Bag %3E%3C/dc:subject %3E%3C/cc:Work %3E%3Ccc:License rdf:about='http://creativecommons.org/licenses/publicdomain/' %3E%3Ccc:permits rdf:resource='http://creativecommons.org/ns%23Reproduction' /%3E%3Ccc:permits rdf:resource='http://creativecommons.org/ns%23Distribution' /%3E%3Ccc:permits rdf:resource='http://creativecommons.org/ns%23DerivativeWorks' /%3E%3C/cc:License %3E%3C/rdf:RDF %3E%3C/metadata %3E%3C/svg%0A%3E%0A");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        top: 50%;
+        left: -4.5rem;
+        transform: translate(0, -50%);
+    }
+
+
+
+    .question__item:not(:last-child) {
+        margin-bottom: 0;
+    }
+    .question__list {
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        text-align: left;
+    }
+    .question__item {
+        width: 23%;
+    }
+    .question__item::before {
+        position: absolute;
+        display: block;
+        content: '';
+        width: 5rem;
+        height: 100%;
+        background-color: var(--second-brand-color);
+        top: 50%;
+        left: -7rem;
+        transform: translate(0, -50%);
+    }
+    .question__item::after {
+        position: absolute;
+        display: block;
+        content: '';
+        width: 5rem;
+        background-color: var(--sub-text-color);
+        height: 1rem;
+        top: 50%;
+        left: -7rem;
+        transform: translate(0, -50%);
+    }
+
+
+    .policy__box {
+        display: flex;
+    }
+    .policy__block--top {
+        margin-bottom: 0;
+    }
+    .policy .btn:hover {
+        background-color: transparent;
+        color: var(--main-text-color);
+    }
+}
+
