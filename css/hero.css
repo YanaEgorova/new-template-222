@@ -151,6 +151,12 @@
     .hero .btn {
         margin-left: 0;
     }
+    .hero__block {
+        width: 50%;
+        background-color: var(--first-brand-color);
+        padding: 2rem;
+        border-radius: 2rem;
+    }
 
 
 
